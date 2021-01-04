@@ -46,9 +46,9 @@ public class base {
 		//wait.until(ExpectedConditions.visibilityOfElementLocated((web2)));
 		//WebElement Text = driver.findElement(web2);
 		//String b = Text.getText();
-		//String x = driver.findElement(By.xpath("/html/body/text()")).getText();
+		String x = driver.findElement(By.xpath("/html/body/text()")).getText();
 		//Assert.assertEquals(b, a);
-		//System.out.println(x);
+		System.out.println(x);
 		driver.close();
 		
 		driver.switchTo().window(tabsGUId.get(0));

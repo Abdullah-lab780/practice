@@ -12,17 +12,17 @@ import org.testng.annotations.Test;
 public class work extends base {
 	
 	
-public  WebDriver driver;
+//public  WebDriver driver;
 	
 By button = By.id("startStopButton");
 
 By slider = By.xpath("//div[@id='progressBar']/div[@role='progressbar']");
-
-/*@FindBy(xpath="//div[@id='demo-tabpane-list']//div[contains(text(),'One')]")
-WebElement from;
-@FindBy(xpath="//div[@id='demo-tabpane-list']//div[contains(text(),'Five')]")
-WebElement to;*/
-
+/*
+@FindBy(id="startStopButton")
+WebElement button;
+@FindBy(xpath="//div[@id='progressBar']/div[@role='progressbar']")
+WebElement slider;
+*/
 	
 	
    	@Test
